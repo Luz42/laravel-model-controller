@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+
+        .card-container{
+        padding: 1%;
+        display: flex;
+        //justify-content: center;
+        flex-wrap: wrap;
+
+            div{
+                padding: 5%;
+                //border: 1px black solid;
+            }
+        }
+    }
